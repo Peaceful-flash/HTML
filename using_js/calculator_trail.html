@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <title> Simple Calculator</title>
+</head>
+<body>
+    <form>
+
+        <lable>Number 1: </lable><input type="number" id="num1"><br>
+        <lable>Number 2: </lable><input type="number" id="num2"><br>
+
+        <button onClick="calc()"> = </button>
+
+        <lable>Result: </lable><input type="text" id="result"><br>
+    </form>
+
+    <script>
+
+        function calc()
+        {
+            var oper;
+            var no1, no2;
+
+            no1 = document.getElementById("num1").value;
+            no2 = document.getElementById("num2").value;
+            
+            oper = document.getElementById("operators").value;
+
+            if(oper = no1 + no2)
+            {
+            document.getElementById("result").value;
+            }
+            if(oper = no1 - no2)
+            {
+            document.getElementById("result").value;
+            }
+        }
+    </script>
+
+</body>
+</html>
